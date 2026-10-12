@@ -1,0 +1,17 @@
+{
+  "name": "conty-views",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.ts",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "evaluate": "node scripts/evaluate.ts",
+    "evaluate:write": "node scripts/evaluate.ts --write-readme"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5"
+  }
+}
